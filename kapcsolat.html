@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petőfi Sándor – Kapcsolat</title>
+  <meta name="description" content="Kapcsolat, szerzői információk és statikus űrlap.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">
+        <a href="index.html" class="logo" aria-label="Ugrás a főoldalra">
+          <img src="images/petofi-logo.png" alt="Petőfi Sarok logó" class="logo-img">
+        </a>
+      </div>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Menü megnyitása">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="nav" aria-label="Fő navigáció">
+        <ul>
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="eletrajz.html">Életrajz</a></li>
+          <li><a href="muvei.html">Művei</a></li>
+          <li><a href="erdekessegek.html">Érdekességek</a></li>
+          <li><a href="kapcsolat.html">Kapcsolat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <header class="page-header reveal">
+      <h1>Kapcsolat</h1>
+      <p>Készítette: Novográdecz Damján</p>
+      <p>Pannonhalmi Bencés Gimnázium, 11.B osztály</p>
+    </header>
+
+    <section class="sources reveal">
+      <h2>Felhasznált irodalom</h2>
+      <div class="placeholder">
+        <p>ChatGPT keresőmotor</p>
+        <p>Petőfi Sándor irodalom órai vázlat</p>
+      </div>
+    </section>
+
+    <section class="contact-form reveal">
+      <h2>Írj üzenetet (Nem fogom megkapni, mert nem real oldal)</h2>
+      <form action="#" method="post" novalidate>
+        <div class="form-field">
+          <label for="name">Név</label>
+          <input type="text" id="name" name="name" placeholder="Add meg a neved">
+        </div>
+        <div class="form-field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Add meg az e-mail címed">
+        </div>
+        <div class="form-field">
+          <label for="message">Üzenet</label>
+          <textarea id="message" name="message" rows="5" placeholder="Írd ide az üzeneted"></textarea>
+        </div>
+        <button class="btn" type="submit">Küldés</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 – Novográdecz Damján 2 órás promtolás + 99% ChatGPT</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petőfi Sándor – Főoldal</title>
+  <meta name="description" content="Petőfi Sándor életét, műveit és örökségét bemutató oktatási weboldal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">
+        <a href="index.html" class="logo" aria-label="Ugrás a főoldalra">
+         <img src="images/petofi-logo.png" alt="Petőfi Sarok logó" class="logo-img">
+        </a>
+      </div>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Menü megnyitása">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="nav" aria-label="Fő navigáció">
+        <ul>
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="eletrajz.html">Életrajz</a></li>
+          <li><a href="muvei.html">Művei</a></li>
+          <li><a href="erdekessegek.html">Érdekességek</a></li>
+          <li><a href="kapcsolat.html">Kapcsolat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: url('images/petofi-portrait.jpg'); background-size: cover; background-position: center;">
+      <div class="hero-inner">
+        <blockquote class="quote-badge quote-left reveal">
+          <p>Szabadság, szerelem!<br>E kettő kell nekem.<br>Szerelmemért föláldozom<br>Az életet,<br>Szabadságért föláldozom<br>Szerelmemet.</p>
+          <cite>Pest, 1847. január 1.</cite>
+        </blockquote>
+        <blockquote class="quote-badge quote-right reveal">
+          <p>Föltámadott a tenger,<br>A népek tengere;<br>Ijesztve eget-földet,<br>Szilaj hullámokat vet<br>Rémítő ereje.</p>
+          <cite>Pest, 1848. március 27 - 30.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="grid-sections container">
+      <article class="info-card reveal">
+        <h2>Életrajz</h2>
+        <p>Ismerd meg Petőfi Sándor életének főbb állomásait a gyermekkorától a forradalom napjaiig. Az idővonal segít átlátni a korszakokat, a fontos helyszíneket és a pályakezdés állomásait. A képek és rövid magyarázatok együtt adják a történeti kontextust és a személyes sors ívét.</p>
+        <a class="btn" href="eletrajz.html">Tovább az oldalra</a>
+      </article>
+      <article class="info-card reveal">
+        <h2>Művei</h2>
+        <p>Válogatás a legismertebb versek közül rövid, értelmező ismertetőkkel és az Arcanumra mutató hivatkozásokkal. A gyűjtemény iránytűt ad az első olvasóknak és felkészít a mélyebb irodalmi feldolgozásra, akár órán, akár önálló tanulásban.</p>
+        <a class="btn" href="muvei.html">Tovább az oldalra</a>
+      </article>
+      <article class="info-card reveal">
+        <h2>Érdekességek</h2>
+        <p>Rövid, meglepő tények Petőfiről - de nem mindegyik igaz: ki tudod találni, melyek a helyesek? A könnyen befogadható kártyák segítenek emlékezetessé tenni a tanultakat, és jó beszélgetésindítók csoportmunkához is.</p>
+        <a class="btn" href="erdekessegek.html">Tovább az oldalra</a>
+      </article>
+      <article class="info-card reveal">
+        <h2>Kapcsolat</h2>
+        <p>Elérhetőségek és egy egyszerű, nem beküldős űrlap. Itt kaphat helyet a felhasznált irodalom listája, hivatkozásokkal és megjegyzésekkel, hogy átlátható legyen a forráskezelés és a további olvasnivaló.</p>
+        <a class="btn" href="kapcsolat.html">Tovább az oldalra</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 – Novográdecz Damján 2 órás promtolás + 99% ChatGPT</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
